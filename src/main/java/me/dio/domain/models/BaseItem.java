@@ -11,16 +11,16 @@ import java.util.UUID;
 public abstract class BaseItem {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID id;
+    private UUID baseItemId;
     private String icon;
     private String description;
 
-    public UUID id() {
-        return id;
+    public UUID getBaseItemId() {
+        return baseItemId;
     }
 
-    public void setFeatureId(UUID featureId) {
-        this.id = featureId;
+    public void setBaseItemId(UUID baseItemId) {
+        this.baseItemId = baseItemId;
     }
 
     public String getIcon() {

@@ -1,0 +1,25 @@
+{
+  "name": "Olivia Maya Flávia Costa",
+  "account": {
+    "number": "123",
+    "agency": "0800",
+    "balance": 1200,
+    "limit": 2000
+  },
+  "features": [
+    {
+      "icon": "localhost:3000/images/pix.svg",
+      "description": "pix img"
+    }
+  ],
+  "card": {
+    "cardNumber": "1234567890123456",
+    "limit": 5000
+  },
+  "news": [
+    {
+      "icon": "localhost:3000/images/news.svg",
+      "description": "news img"
+    }
+  ]
+}
